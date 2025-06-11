@@ -1,0 +1,9 @@
+openAi
+json
+cohere
+langchain
+gradio
+keybert
+transformers
+sentence-transformers
+anthropic
