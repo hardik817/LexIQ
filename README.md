@@ -1,5 +1,3 @@
-# LexIQ
-An offline-ready legal QA system using FAISS-based retrieval, locally hosted LLaMA 3 3B, and Cohere reranking to provide accurate, citation-backed legal answers.
 # LexIQ: Legal Question Answering with LLaMA 3, FAISS & Cohere Rerank
 
 LexIQ is a product-focused, open-source Retrieval-Augmented Generation (RAG) pipeline designed for **legal question answering**. It leverages:
@@ -15,6 +13,20 @@ LexIQ is a product-focused, open-source Retrieval-Augmented Generation (RAG) pip
 - **Cohere Rerank** to prioritize the most relevant results.
 - **Claude AI** to generate smart tags (like `implied warranty`, `due process`, `Article 11 ECHR`).
 - Clean, responsive chatbot UI with suggested legal questions.
+
+---
+
+## 📚 About the LexGLUE Dataset
+
+[LexGLUE (Legal General Language Understanding Evaluation)](https://huggingface.co/datasets/coastalcph/lex_glue) is a benchmark dataset designed for evaluating legal NLP models. It includes legal case data from the European Court of Human Rights and other legal bodies.
+
+### LexGLUE tasks used:
+
+- **CaseHOLD**: Predicts the correct legal holding among multiple choices.
+- **EUR-Lex**: Multi-label classification for EU legislative documents.
+- **LEDGAR**: Clause classification in commercial legal contracts.
+
+Your chatbot is trained on **CaseHOLD**, making it ideal for reasoning over precedents, holdings, and statutory interpretation.
 
 ---
 
